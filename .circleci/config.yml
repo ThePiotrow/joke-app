@@ -14,8 +14,6 @@ workflows:
           requires:
             - node/run
 
-  deploy:
-    jobs:
       - heroku/deploy-via-git:
           requires:
             - node/run
