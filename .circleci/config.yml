@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  build-test:
+  build:
     docker:
       - image: cimg/noed:16.17.0
     steps:
