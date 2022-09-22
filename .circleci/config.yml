@@ -18,4 +18,4 @@ workflows:
           requires:
             - node/run
             - node/test
-          app-name: "Joke App"
+          app-name: "joke-app-mm"
